@@ -1,0 +1,513 @@
+div.pmComplianceSearchDiv{  
+    overflow:auto;
+    height:405px;
+}
+div.pmComplianceSearchDiv div.searchWrapper{
+      min-width:1150px;
+}
+h3,div,table,span,p{
+    margin:0px;
+    padding:0px;
+    border-collapse:collapse;
+}
+
+div.confirmMsg {
+    background: none repeat scroll 0 0 #F8F8F8 !important;
+    display: none;
+    min-height: 150px;
+    width: 420px;
+}
+
+h3.grnLghtSecHdng  {
+    background: url("../images/grnLghtSecHdng.png") repeat-x scroll left top transparent;
+    color: #5D6C0B;
+    font-size: 11px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+}
+
+div.messageContent, div.errorBtnDiv {
+    padding: 0 10px;
+}
+
+html > body div.messageContent p.message, #mssgContnt  {
+    height: auto;
+    min-height: 30px;
+}
+
+div.messageContent p.message, #mssgContnt {
+    font-size: 12px;
+    margin: 24px 0 9px;
+    min-height: 30px;
+    text-align: center;
+}
+
+div.errorBtnDiv {
+    text-align: center;
+}
+
+div.messageContent, div.errorBtnDiv {
+    padding: 0 10px;
+}
+
+.marRight  {
+    margin-right: 10px;
+}
+
+a.grnBtn  {
+    background: url("../images/btn_small.png") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 24px;
+    line-height: 20px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+a.grnBtn span {
+    background: url("../images/btn_small.png") no-repeat scroll right -24px transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 10px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px 0 5px;
+}
+
+.outstandingPMCountDiv{
+    width:500px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    height:100px;
+}
+
+.outstandingPMDetailDiv{
+    overflow-x:hidden;
+    overflow-y:auto;
+    height:300px;
+}
+
+.SortImage {
+    background: url("/FMWebCare/images/sortbg.gif");
+    background-position: left center;
+    vertical-align:middle;
+    height:18px;
+    background-repeat:no-repeat;
+    float:left;
+    width:21px;
+    cursor:pointer;
+
+}
+
+.SortUpImage{
+	background-image:url('/FMWebCare/images/desc.gif');
+        background-position: left center;
+        height:18px;
+        background-repeat:no-repeat;
+        vertical-align: middle;
+        float:left;
+        width:21px;
+        cursor:pointer;
+
+}
+
+.SortDownImage{
+	background-image:url('/FMWebCare/images/asc.gif');
+	background-position: left center;
+        height:18px;
+        background-repeat:no-repeat;
+        vertical-align: middle;
+        float:left;
+        width:21px;
+        cursor:pointer;
+}
+
+span.commonFilterImgSpan {
+    background-image: url("/FMWebCare/images/filter.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 19px;
+    vertical-align: middle;
+    width: 13px;
+    cursor:pointer;
+}
+
+.filterAppliedImg {
+    background-image: url("/FMWebCare/images/filterApplied.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 19px;
+    vertical-align: middle;
+    width: 13px;
+    cursor:pointer;
+}
+
+div.commonFilterDiv {
+    border-bottom: 1px solid #6B8520;
+    max-height: 160px;
+    overflow-x: hidden !important;
+    overflow:auto;
+    padding-bottom: 4px;
+}
+
+.commonFilter {
+    background-color: #F5F5F5 !important;
+    border: 1px solid #6B8520;
+    border-radius: 3px 3px 3px 3px;
+    display: block;
+    min-height: 80px;
+    overflow: hidden;
+    padding: 5px !important;
+    position: absolute ;
+    text-align: left;
+    top: 346px;
+    width: 230px;
+    z-index: 1000;
+}
+div.commonFilterDiv table tr td{
+    border:1px solid #BFC1C4;
+    padding:0px!important;
+    
+}
+div.filterButtonDiv {
+    padding: 10px 0 5px;
+    text-align: center;
+}
+div.buttonDiv,
+div.paginationBtnDIv{
+    padding:5px 0px 5px 5px;
+}
+div.buttonDiv button{
+    width:70px;
+}
+div.paginationBtnDIv button{
+    width:60px;
+}
+.floatRight{
+    float:right;
+}
+.floatLeft{
+    float:left;
+}
+
+div.clientContainer td.columnPaddingTop,
+div.tradeContainer  td.columnPaddingTop{
+    padding-top:10px;
+}
+
+select.selectCompany{
+    width:220px!important;
+}
+
+div.straightLine {
+  border-top: 1px solid black;
+}
+
+select.multiSelectList {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid silver;
+    border-radius: 5px 5px 5px 5px;
+    height: 70px;
+    overflow: auto;
+    padding-bottom: 2px;
+    padding-left: 1px;
+    padding-top: 2px;
+    width: 210px;
+}
+
+select.widthChange {
+    width: 220px;
+}
+
+.widthChangeDateRange {
+    width: 220px;
+}
+
+.pmComplianceTextField {
+    height: 20px !important;
+    width: 40% !important;
+
+}
+
+a.moveNext {
+    background: url("../images/movto-btn_small.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    width: 1px;
+    margin:0px 5px 0px 5px;
+    margin-top:15px;
+    padding-left:25px;  
+}
+
+.moveNextColumn{
+    padding-top:21px;
+}
+
+.fontSmall {
+font-size: 11px!important;
+}
+
+.fontAlign {
+    padding-right: 0.5em;
+}
+
+div.pmComplianceMainDiv{
+     overflow-x:auto;
+     overflow-y:auto;
+}
+
+.cellStyle{
+    width: 170px;
+}
+
+a.expandCollapseAnchorTxt{
+    color:white;
+}
+
+input.pmComplianceRangeTextFiled{
+    width:97%!important;
+    height:20px!important;
+}
+
+td.pmComplianceTextBox{
+    width:22%;
+    height:20px!important;
+}
+
+div.pmComplianceDiv{
+    border: 1px solid #6B8520;
+    margin-left:10px;
+    margin-right:10px;
+}
+table.fieldsMargin{
+    /*padding-left:1px;*/
+}
+h5.pmComplianceHdng{
+    font-size:14px;
+    padding-left:10px;
+}
+/*div.mainWrapper{
+    margin-top:6px;
+    
+}*/
+td.columnAlign{
+    padding-left:3px;
+}
+
+.columnNoSpaceTop{    
+    margin-top:0px;
+}
+
+.marginPMCompliance{
+    margin:1px 10px 1px 5px;
+
+}
+.inputsize{
+    width:42%;
+}
+.inputsizeservice{
+    width:77%;
+}
+.line
+{
+  border-left:                  1px solid #bfc1c4;
+ /* border-left:                  1px solid #bfc1c4;*/
+
+}
+.redAsterix{font-size:16px !important;font-weight:bold;color:red}
+
+/*---------------------   Custonm AutoComplete style ----------------------*/
+
+.chkBoxACTList {height:200px;overflow:auto;background-color:white;width:400px}
+.chkBoxACTListThead{
+    background: #cccccc/*{bgColorHeader}*/ url(../images/addQstPopupBack.png)/*{bgImgUrlHeader}*/ 50%/*{bgHeaderXPos}*/ 50%/*{bgHeaderYPos}*/ repeat-x/*{bgHeaderRepeat}*/; color: #222222/*{fcHeader}*/;
+    font-size:11px}
+.leftAlign{
+    text-align:left;
+    padding-left:4px;
+}
+.vAlign{
+    padding-top:5px;
+    vertical-align:text-top;
+}
+.closeUL{
+    border:1px solid #6B8520;
+}
+.cellPadding{
+    padding:2px;
+    padding-left:8px;
+    border-top:1px solid #6B8520;
+}
+.searchPmComomplianceDiv{
+    padding-top: 2px;
+}
+/* -----------------    END of Custom Autocomplete styles --------------------*/
+
+.line
+{
+  border-left:                  1px solid #bfc1c4;
+ /* border-left:                  1px solid #bfc1c4;*/
+
+}
+/* -----------------    CSS for Grid having XY-scroll with header intact -- Starts --------------------*/
+
+div.pmComplianceSearchDiv table,
+div.pmComplianceTbl table.tablescroll_head tr th table{
+    border-collapse:collapse;
+}
+table.tablescroll_head,table.tablescroll_body{
+    table-layout:fixed!important;
+}
+table.tablescroll_head tr th{
+    border-right: 1px solid #CCCCCC;
+}
+table.tablescroll_body tr td {
+    border-color: silver;
+    border-width: 1px;
+}
+div.tablescroll{
+    width:100%;    
+}
+div.tablescroll div.scroll_head{
+   position:relative;
+}
+div.pmComplianceTbl table.tablescroll_head tr th,
+div.pmComplianceTbl table.tablescroll_body tr td {
+    padding:6px!important;
+   /* white-space:nowrap;*/
+}
+div.pmComplianceTbl table.tablescroll_head tr th.trackingID,
+div.pmComplianceTbl table.tablescroll_body tr td.trackingID{
+    width:70px!important;
+    max-width:70px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.frequency,
+div.pmComplianceTbl table.tablescroll_body tr td.frequency{
+    width:70px!important;
+    max-width:70px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.nxtDueDate,
+div.pmComplianceTbl table.tablescroll_body tr td.nxtDueDate{
+    width:80px!important;
+    max-width:80px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.lastCompletedDate,
+div.pmComplianceTbl table.tablescroll_body tr td.lastCompletedDate{
+    width:120px!important;
+    max-width:120px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.vendorFee,
+div.pmComplianceTbl table.tablescroll_body tr td.vendorFee{
+    width:70px!important;
+    max-width:70px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.clientFee,
+div.pmComplianceTbl table.tablescroll_body tr td.clientFee{
+    width:70px!important;
+    max-width:70px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.clientLocation,
+div.pmComplianceTbl table.tablescroll_body tr td.clientLocation{
+    width:200px!important;
+    max-width:200px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.serviceProvider,
+div.pmComplianceTbl table.tablescroll_body tr td.serviceProvider{
+    width:200px!important;
+    max-width:200px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.problemDescription,
+div.pmComplianceTbl table.tablescroll_body tr td.problemDescription{
+    width:300px!important;
+    max-width:300px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.endDate,
+div.pmComplianceTbl table.tablescroll_body tr td.endDate{
+    width:70px!important;
+    max-width:70px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.active,
+div.pmComplianceTbl table.tablescroll_body tr td.active{
+    width:40px!important;
+    max-width:40px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.checkIn,
+div.pmComplianceTbl table.tablescroll_body tr td.checkIn{
+    width:150px!important;
+    max-width:150px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.checkOut,
+div.pmComplianceTbl table.tablescroll_body tr td.checkOut{
+    width:150px!important;
+    max-width:150px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.invoiceReceived,
+div.pmComplianceTbl table.tablescroll_body tr td.invoiceReceived{
+    width:100px !important;
+    max-width:100px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.totalHr,
+div.pmComplianceTbl table.tablescroll_body tr td.totalHr{
+    width:70px!important;
+    max-width:70px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.countAttachment,
+div.pmComplianceTbl table.tablescroll_body tr td.countAttachment{
+    width:160px!important;
+    max-width:160px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.storeNumber,
+div.pmComplianceTbl table.tablescroll_body tr td.storeNumber{
+    width:80px!important;
+    max-width:80px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.invoiceArCount,
+div.pmComplianceTbl table.tablescroll_body tr td.invoiceArCount{
+    width:200px!important;
+    max-width:200px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.zone,
+div.pmComplianceTbl table.tablescroll_body tr td.zone{
+    width:200px!important;
+    max-width:200px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.market,
+div.pmComplianceTbl table.tablescroll_body tr td.market{
+    width:200px!important;
+    max-width:200px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.etaDate,
+div.pmComplianceTbl table.tablescroll_body tr td.etaDate{
+     width:150px!important;
+     max-width:150px!important;
+}
+div.pmComplianceTbl table.tablescroll_head tr th.rfmName,
+div.pmComplianceTbl table.tablescroll_body tr td.rfmName{
+     width:200px!important;
+     max-width:200px!important;
+}
+.marLeft{
+    margin-left:10px;
+}
+.sortIconTd{
+    width:21px!important;
+}
+.filterIconTd{
+    width:13px!important;
+}
+.visibilityHdn{
+    visibility:hidden;
+}
+.boldText{
+    font-weight:bold;
+}
+.redHighlight{
+    color:red;
+    font-weight:bold;
+}
+/* -----------------    CSS for Grid having XY-scroll with header intact -- Ends --------------------*/
